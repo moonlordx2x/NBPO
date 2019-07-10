@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "994230361936",
+    "firebase_url": "https://nbpo-gameapp.firebaseio.com",
+    "project_id": "nbpo-gameapp",
+    "storage_bucket": "nbpo-gameapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994230361936:android:d1ae023671606dbc",
+        "android_client_info": {
+          "package_name": "com.example.neilbryanlagrimas.nbpo_gameapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994230361936-ne3hs39ng8qc03413vsm3287h4o189s2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.neilbryanlagrimas.nbpo_gameapp",
+            "certificate_hash": "e182f799ce1ce50308afd6d8703debc281a375db"
+          }
+        },
+        {
+          "client_id": "994230361936-l750hqsavrv4heoj7g154odjsotki769.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-vfdB0NT_au6xt3xDjjTPOkvav4Q8SU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994230361936-l750hqsavrv4heoj7g154odjsotki769.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
