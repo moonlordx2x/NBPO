@@ -6,46 +6,67 @@
     android:layout_height="match_parent"
     tools:context="com.example.neilbryanlagrimas.nbpo_gameapp.MainActivity">
 
-    <EditText
-        android:id="@+id/Name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <Button
+        android:id="@+id/Start"
+        android:layout_width="210dp"
+        android:layout_height="59dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginLeft="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="8dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintBottom_toTopOf="@+id/LName"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="CREATE ROOM"
+        app:layout_constraintBottom_toTopOf="@+id/Quit"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.786" />
-
-    <EditText
-        android:id="@+id/LName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="108dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Last Name"
-        app:layout_constraintBottom_toTopOf="@+id/Save"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/Save"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="300dp"
-        android:layout_marginEnd="32dp"
+        android:id="@+id/Quit"
+        android:layout_width="210dp"
+        android:layout_height="59dp"
         android:layout_marginStart="32dp"
-        android:text="Save"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="192dp"
+        android:text="JOIN ROOM"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="232dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nbpo" />
+
+    <TextView
+        android:id="@+id/User"
+        android:layout_width="352dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/Start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
 </android.support.constraint.ConstraintLayout>
