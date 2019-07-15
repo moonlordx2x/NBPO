@@ -62,7 +62,7 @@
         android:layout_marginRight="32dp"
         android:layout_marginBottom="32dp"
         android:gravity="center"
-        android:text="TextView"
+        android:text="NBPO GAME APP"
         android:textSize="24dp"
         app:layout_constraintBottom_toTopOf="@+id/Start"
         app:layout_constraintEnd_toEndOf="parent"
